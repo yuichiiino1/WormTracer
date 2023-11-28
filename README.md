@@ -12,6 +12,6 @@ The main code is provided in .ipynb and .py files. Use whichever is convenient f
 
 Because WormTracer optimizes the candidate centerlines on multiple images in parallel, use of GPU is highly recommended.
 
-Author: Koyo Kuze
+Author: Koyo Kuze; 
 Contributors: Ukyo T. Tazawa, Karin Suwazono, Yu Toyoshima, Yuichi Iino
 
