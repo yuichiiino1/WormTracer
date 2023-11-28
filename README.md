@@ -8,7 +8,7 @@ Special characterics of WormTracer is as follows.
 - It threfore requires a movie, or time series images, of a single worm.
 - It receives only binalized images obtained by, for example, manual thresholding. It means that WormTracer does not rely on textures or brightness imformation in determining the centerline. It only utilizes the outline of a worm. 
 
-The main code is provided in .ipynb and .py files. Use whichever is convenient for you. In both cases, the functions.py file needs to be accessible from the main program. Please see "how to use WormTracer".
+The main code is provided in .ipynb and .py files. Use whichever is convenient for you. In both cases, the functions.py file needs to be accessible from the main program. Please see "How to use WormTracer".
 
 Because WormTracer optimizes the candidate centerlines on multiple images in parallel, use of GPU is highly recommended.
 
