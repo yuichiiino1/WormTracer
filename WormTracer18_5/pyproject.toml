@@ -1,7 +1,6 @@
 [build-system]
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
-
 [project]
 name = "WormTracer"
 version = "18.5"  # REQUIRED, although can be dynamic
@@ -9,7 +8,6 @@ description = "WormTracer Python project"
 readme = "README.md"
 license = {file = "LICENSE.txt"}
 authors = [{name = "Koyo Kuze"}]
-
 dependencies = [
   "torch",
   "numpy",
