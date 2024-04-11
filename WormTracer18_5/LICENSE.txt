@@ -1,0 +1,1 @@
+This software can be distrubuted under the MIT licence.
