@@ -40,9 +40,11 @@ Run all cells in wt18_5.ipynb
 
 (installation)
 Install WormTracer by entering the following command after activating appropriate python environment
+
 $ pip install git+https://github.com/yuichiiino1/WormTracer.git#subdirectory=WormTracer18_5
 
 Alternatively, the codes can be downloaded from https://github.com/yuichiiino1/WormTracer/ (current version is in WormTracer18_5 subfolder), either by pip clone or https download, and (after optional modification) install as
+
 $ pip install [local path to WormTracer18_5 folder]
 
 Confirm successfule installation by making sure that WormTracer appears by $ pip list
@@ -56,6 +58,7 @@ Make a parameter file xxxx.yaml according to your preferred options, or use the 
 Enter following commands:
 
 (python)$ from WormTracer import wt
+
 (python)$ wt.run('[path to xxxx.yaml]', '[path to input image folder]', parameter1=1000)
 
 Note: after two mandatory arguments, optional (parameter_name, value) pairs (example: parameter1=1000) can be specified, to override the value of a specific parameter(s).
