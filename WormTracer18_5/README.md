@@ -16,6 +16,7 @@ In all cases, input images need to be time-lapse images in a folder, either as a
 In all cases, results are saved in the input image folder.
 
 (1) Data required
+
 WormTracer only requires a "folder containing binarized worm video images".
 Put a binarized worm video in a single folder, either as a single multipage tiff file or serial numbered image files with a format of your choice, such as tif, png, jpeg etc that can be read by OpenCV. Binarization threshold is sometimes critical (see Tips), so we recommend users binarize raw images manually, for example using the "Image > Adjust > Threshold" function of ImageJ. The folder name is arbitrary and you will specify the folder name when you run WormTracer. For the serial numbered format, image file names should include numbers at the end in a chronological order; you can save the images in this format for example by selecting “File > Save as > Image Sequence...” in ImageJ. Alternatively, stack images can be saved as a multipage tiff file by "File > Save as > Tiff..." in ImageJ. Put this file alone in a new folder.
 
