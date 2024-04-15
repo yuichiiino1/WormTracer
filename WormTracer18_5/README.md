@@ -54,8 +54,8 @@ Make a parameter file xxxx.yaml according to your preferred options, or use the 
 
 (execution in case of python interactive mode)
 Enter following commands:
-> from WormTracer import wt
-> wt.run('[path to xxxx.yaml]', '[path to input image folder]', parameter1=1000)
+(python)$ from WormTracer import wt
+(python)$ wt.run('[path to xxxx.yaml]', '[path to input image folder]', parameter1=1000)
 Note: after two mandatory arguments, optional (parameter_name, value) pairs (example: parameter1=1000) can be specified, to override the value of a specific parameter(s).
 
 (execution in case of batch mode)
