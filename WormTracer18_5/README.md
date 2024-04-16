@@ -28,10 +28,12 @@ In all cases, results are saved in the input image folder.
 
 (3) Running WormTracer from IPython Notebook, such as on Jupyter Notebook or Google Colaboratory (GUI environment)
 
+(installation)
+Download wt18_5.ipynb and functions.py in the WormTracer folder on this site and place them in your local directory (Google drive when using Google Colaboratory). 
+
 (preparation)
-Make input images in a folder
-Place functions.py at an appropriate path
-Place wt18_5.ipynb and change parameters, especially the path to functions.py and path to the input image folder.
+Place input images in a folder
+Change parameters in wt18_5.ipynb, especially the path to functions.py and path to the input image folder.
 
 (execution)
 Run all cells in wt18_5.ipynb
@@ -52,7 +54,7 @@ In case you need to uninstall, just enter $ pip uninstall WormTracer
 
 (preparation)
 Make input images in a folder
-Make a parameter file xxxx.yaml according to your preferred options, or use the sample file, config.yaml, as is.
+Make a parameter file xxxx.yaml according to your preferred options, or use the sample file, config.yaml, in the WormTracer folder on this site, as is.
 
 (execution in case of python interactive mode)
 Enter following commands:
