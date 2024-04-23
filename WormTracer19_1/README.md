@@ -31,12 +31,12 @@ Place functions.py at an appropriate path
 Place wt18_5.ipynb and change parameters, especially the path to functions.py and path to the input image folder.
 <br><br>
 (execution)<br>
-Run all cells in wt18_5.ipynb<br>
+Run all cells in wt19_1.ipynb<br>
 
 4. **Running WormTracer from command line (CLI)**<br><br>
 (installation)
 Install WormTracer by entering the following command after activating appropriate python environment<br><br>
-\$ pip install git+https://github.com/yuichiiino1/WormTracer.git#subdirectory=WormTracer18_5<br><br>
+\$ pip install git+https://github.com/yuichiiino1/WormTracer.git#subdirectory=WormTracer19_1<br><br>
 Alternatively, the codes can be downloaded from https://github.com/yuichiiino1/WormTracer/ (current version is in the WormTracer18_5 subfolder), either by pip clone or https download, and (after optional modifications) install as<br><br>
 \$ pip install [local path to WormTracer18_5 folder]<br><br>
 Confirm successfule installation by making sure that WormTracer appears by \$ pip list
