@@ -65,7 +65,8 @@ plt.rcParams["animation.ffmpeg_path"] = "PATH_TO_FFMPEG"<br><br>
 before "wt.run(sys.argv[1], sys.argv[2])"<br><br>
 Or, just avoid making the movie file by setting the parameter SaveCenterlinedWormsMovie as False in xxxx.yaml.
 <br><br>
-5. Adjustable hyperparameters
+5. Adjustable hyperparameters<br>
+Default parameters usually works well
 ```
 dataset_path (mandatory):
 Path to a folder including input images.
@@ -73,7 +74,7 @@ Images are either as a single multipage tiff file or serial numbered image files
 ".bmp", ".dib", ".pbm", ".pgm", ".ppm", ".pnm", ".ras", ".png", ".tiff", ".tif", ".jp2", ".jpeg", ".jpg", ".jpe"
 ALL RESULTS ARE SAVED in dataset_path.
 
-functions_path (mandatory):
+functions_path (needed only for running from WT19_1.ipynb):
 Path to functions.py file, which is essential.
 
 local_time_difference:
