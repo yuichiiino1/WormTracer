@@ -28,7 +28,7 @@ Install following packages that WormTracer depends on, if they are not yet insta
 torch, numpy, opencv-python, matplotlib, Pillow, scikit-image, scipy, pyyaml<br><br>
 Make input images in a folder
 Place functions.py at an appropriate path
-Place wt18_5.ipynb and change parameters, especially the path to functions.py and path to the input image folder.
+Place wt19_1.ipynb and change parameters, especially the path to functions.py and path to the input image folder.
 <br><br>
 (execution)<br>
 Run all cells in wt19_1.ipynb<br>
