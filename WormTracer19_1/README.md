@@ -37,8 +37,8 @@ Run all cells in wt19_1.ipynb<br>
 (installation)
 Install WormTracer by entering the following command after activating appropriate python environment<br><br>
 \$ pip install git+https://github.com/yuichiiino1/WormTracer.git#subdirectory=WormTracer19_1<br><br>
-Alternatively, the codes can be downloaded from https://github.com/yuichiiino1/WormTracer/ (current version is in the WormTracer18_5 subfolder), either by pip clone or https download, and (after optional modifications) install as<br><br>
-\$ pip install [local path to WormTracer18_5 folder]<br><br>
+Alternatively, the codes can be downloaded from https://github.com/yuichiiino1/WormTracer/ (current version is in the WormTracer19_1 subfolder), either by pip clone or https download, and (after optional modifications) install as<br><br>
+\$ pip install [local path to WormTracer19_1 folder]<br><br>
 Confirm successfule installation by making sure that WormTracer appears by \$ pip list
 In case you need to uninstall, just enter \$ pip uninstall WormTracer<br><br>
 (preparation)<br>
