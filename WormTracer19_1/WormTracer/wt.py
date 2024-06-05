@@ -458,12 +458,14 @@ def run(parameter_file, dataset_path, **kwargs): # execute the whole WormTracer 
   if params['SaveCenterlinedWormsSerial']:
       clear_dir(dataset_path, 'full_line_image')
       end_T = n_input_images-1 if params['end_T']==0 else params['end_T']
+      fig, ax = plt.subplots()
       for i, t in enumerate( range(params['start_T'], end_T+1) ):
           filename = os.path.join(dataset_path, 'full_line_image', 'full_line_image'+str(t).zfill(len(str(n_input_images)))+'.png')
-          plt.imshow(real_image[t], cmap='gray')
-          plt.plot(x[i]-x_st, y[i]-y_st, c="r", lw=3)
+          ax.imshow(real_image[t], cmap='gray')
+          ax.plot(x[i]-x_st, y[i]-y_st, c="r", lw=3)
           plt.savefig(filename)
-          plt.close()
+          plt.cla()
+      plt.close()
       print('\npng images saved to ' + filename + ' etc.')
   
   # save full of real_image and centerline as mp4 movie
