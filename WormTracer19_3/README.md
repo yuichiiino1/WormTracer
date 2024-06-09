@@ -48,10 +48,8 @@ Enter the following commands:<br>
 \>> from WormTracer import wt<br>
 \>> wt.run('[path to xxxx.yaml]', '[path to input images]', '[path to output folder]', (optional) parameter1=1000)<br><br>
 Note: after two mandatory and one optional arguments, optional (parameter_name, value) pairs (example: parameter1=1000) can be specified, to override the value of a specific parameter(s).<br><br>
-
 (execution in case of batch mode)<br>
 Prepare following two files and submit wt0000.sh to batch execution<br><br>
-
 \< wt0000.sh > (adjust according to your environment)<br>
 #!/bin/sh<br>
 python3 wtexe.py [path to xxxx.yaml] [path to input images] [path to output folder]<br><br>
@@ -63,7 +61,6 @@ if len(sys.argv) == 4:<br>
 else:<br>
      &nbsp;&nbsp;wt.run(sys.argv[1], sys.argv[2])<br><br>
 (Optional parameter pairs can be specfied also in this case.)<br><br>
-
 (Troubleshooting)<br><br>
 Under some environment, saving the results as a mp4 movie may fail with an error message such as "unknown file extension: .mp4". In this case, try downloading the ffmpeg package from https://ffmpeg.org/download.html, and specify the path to ffmpeg executable in wtexe.py as follows.<br><br>
 from matplotlib import pyplot as plt
