@@ -25,8 +25,8 @@ If you specify output_directory, results are saved in the specified folder, whil
 (preparation)<br>
 Install the following packages that WormTracer depends on, if they are not yet installed to your environment:
 torch, numpy, opencv-python, matplotlib, Pillow, scikit-image, scipy, pyyaml<br><br>
-Make binarized images
-Place functions.py at an appropriate path
+Make binarized images<br>
+Place functions.py at an appropriate path<br>
 Place wt19_2.ipynb and change parameters, especially the path to functions.py, path to the input images and output folder in which you want the results to be stored (optional).
 <br><br>
 (execution)<br>
