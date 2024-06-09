@@ -58,8 +58,9 @@ from WormTracer import wt<br>
 if len(sys.argv) == 4:<br>
      &nbsp;&nbsp;wt.run(sys.argv[1], sys.argv[2], sys.argv[3])<br>
 else:<br>
-     &nbsp;&nbsp;wt.run(sys.argv[1], sys.argv[2])<br>
-Optional parameter pairs can be specfied also in this case.<br><br>
+     &nbsp;&nbsp;wt.run(sys.argv[1], sys.argv[2])<br><br>
+(Optional parameter pairs can be specfied also in this case.)<br><br>
+
 (Troubleshooting)<br><br>
 Under some environment, saving the results as a mp4 movie may fail with an error message such as "unknown file extension: .mp4". In this case, try downloading the ffmpeg package from https://ffmpeg.org/download.html, and specify the path to ffmpeg executable in wtexe.py as follows.<br><br>
 from matplotlib import pyplot as plt
