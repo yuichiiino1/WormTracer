@@ -48,7 +48,10 @@ Enter the following commands:<br>
 \>> from WormTracer import wt<br>
 \>> wt.run('[path to xxxx.yaml]', '[path to input images]', '[path to output folder]', (optional) parameter1=1000)<br><br>
 Note: after two mandatory and one optional arguments, optional (parameter_name, value) pairs (example: parameter1=1000) can be specified, to override the value of a specific parameter(s).<br><br>
-(execution in case of batch mode)<br><br>
+
+(execution in case of batch mode)<br>
+Prepare following two files and submit wt0000.sh to batch execution<br><br>
+
 \< wt0000.sh > (adjust according to your environment)<br>
 #!/bin/sh<br>
 python3 wtexe.py [path to xxxx.yaml] [path to input images] [path to output folder]<br><br>
