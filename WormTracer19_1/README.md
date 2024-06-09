@@ -50,8 +50,8 @@ Enter following commands:<br>
 \>> wt.run('[path to xxxx.yaml]', '[path to input image folder]', parameter1=1000)<br><br>
 Note: after two mandatory arguments, optional (parameter_name, value) pairs (example: parameter1=1000) can be specified, to override the value of a specific parameter(s).<br><br>
 (execution in case of batch mode)<br><br>
-\< wt0000.sh > (adjust according to your environment)
-#!/bin/sh
+\< wt0000.sh > (adjust according to your environment)<br>
+#!/bin/sh<br>
 python3 wtexe.py [path to xxxx.yaml] [path to input image folder]<br><br>
 < wtexe.py >
 import sys<br>
