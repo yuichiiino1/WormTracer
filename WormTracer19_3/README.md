@@ -38,26 +38,26 @@ Install WormTracer by entering the following command after activating appropriat
 \$ pip install git+https://github.com/yuichiiino1/WormTracer.git#subdirectory=WormTracer19_3<br><br>
 Alternatively, the codes can be downloaded from https://github.com/yuichiiino1/WormTracer/ (current version is in the WormTracer19_3 subfolder), either by pip clone or https download, and (after optional modifications) install as<br><br>
 \$ pip install [local path to WormTracer19_3 folder]<br><br>
-Confirm successfule installation by making sure that WormTracer appears by \$ pip list
+Confirm successfule installation by making sure that WormTracer appears by \$ pip list<br>
 In case you need to uninstall, just enter \$ pip uninstall WormTracer<br><br>
 (preparation)<br>
-Make binarized input images
+Make binarized input images<br>
 Make a parameter file xxxx.yaml according to your preferred options, or use the sample file, config.yaml, as is.<br><br>
 (execution in case of python interactive mode)<br>
 Enter the following commands:<br>
 \>> from WormTracer import wt<br>
-\>> wt.run('[path to xxxx.yaml]', '[path to input images]', '[path to output folder]'(optional), parameter1=1000)<br><br>
+\>> wt.run('[path to xxxx.yaml]', '[path to input images]', '[path to output folder]', (optional) parameter1=1000)<br><br>
 Note: after two mandatory and one optional arguments, optional (parameter_name, value) pairs (example: parameter1=1000) can be specified, to override the value of a specific parameter(s).<br><br>
 (execution in case of batch mode)<br><br>
-\< wt0000.sh > (adjust according to your environment)
-#!/bin/sh
+\< wt0000.sh > (adjust according to your environment)<br><br>
+#!/bin/sh<br>
 python3 wtexe.py [path to xxxx.yaml] [path to input images] [path to output folder]<br><br>
-< wtexe.py >
-import sys
-from WormTracer import wt
-if len(sys.argv) == 4:
-     wt.run(sys.argv[1], sys.argv[2], sys.argv[3])
-else:
+< wtexe.py ><br>br>
+import sys<br>
+from WormTracer import wt<br>
+if len(sys.argv) == 4:<br>
+     wt.run(sys.argv[1], sys.argv[2], sys.argv[3])<br>
+else:<br>
      wt.run(sys.argv[1], sys.argv[2])<br>
 Optional parameter pairs can be specfied also in this case.<br><br>
 (Troubleshooting)<br><br>
