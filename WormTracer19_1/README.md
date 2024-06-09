@@ -39,10 +39,10 @@ Install WormTracer by entering the following command after activating appropriat
 \$ pip install git+https://github.com/yuichiiino1/WormTracer.git#subdirectory=WormTracer19_1<br><br>
 Alternatively, the codes can be downloaded from https://github.com/yuichiiino1/WormTracer/ (current version is in the WormTracer19_1 subfolder), either by pip clone or https download, and (after optional modifications) install as<br><br>
 \$ pip install [local path to WormTracer19_1 folder]<br><br>
-Confirm successfule installation by making sure that WormTracer appears by \$ pip list
+Confirm successfule installation by making sure that WormTracer appears by \$ pip list<br>
 In case you need to uninstall, just enter \$ pip uninstall WormTracer<br><br>
 (preparation)<br>
-Make input images in a folder
+Make input images in a folder<br>
 Make a parameter file xxxx.yaml according to your preferred options, or use the sample file, config.yaml, as is.<br><br>
 (execution in case of python interactive mode)<br>
 Enter following commands:<br>
@@ -54,13 +54,13 @@ Note: after two mandatory arguments, optional (parameter_name, value) pairs (exa
 #!/bin/sh
 python3 wtexe.py [path to xxxx.yaml] [path to input image folder]<br><br>
 < wtexe.py >
-import sys
-from WormTracer import wt
+import sys<br>
+from WormTracer import wt<br>
 wt.run(sys.argv[1], sys.argv[2])<br>
 Optional parameter pairs can be specfied also in this case.<br><br>
 (Troubleshooting)<br><br>
 Under some environment, saving the results as a mp4 movie may fail with an error message such as "unknown file extension: .mp4". In this case, try downloading the ffmpeg package from https://ffmpeg.org/download.html, and specify the path to ffmpeg executable in wtexe.py as follows.<br><br>
-from matplotlib import pyplot as plt
+from matplotlib import pyplot as plt<br>
 plt.rcParams["animation.ffmpeg_path"] = "PATH_TO_FFMPEG"<br><br>
 before "wt.run(sys.argv[1], sys.argv[2])"<br><br>
 Or, just avoid making the movie file by setting the parameter SaveCenterlinedWormsMovie as False in xxxx.yaml.
