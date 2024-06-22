@@ -164,7 +164,7 @@ def run(parameter_file, dataset_path, output_directory="", **kwargs): # execute 
   
   imshape, Worm_is_black, multi_flag, n_input_images = get_property(filenames_all, params['rescale'])
   Tscaled_ind = list(range(n_input_images))
-  Tscaled_ind = Tscaled_ind[:params['end_T'+1]][params['start_T']:] if params['end_T'] else Tscaled_ind[params['start_T']:]
+  Tscaled_ind = Tscaled_ind[params['start_T']:params['end_T']+1] if params['end_T'] else Tscaled_ind[params['start_T']:]
   Tscaled_ind = Tscaled_ind[::params['Tscale']]
   
   # read images and get information
