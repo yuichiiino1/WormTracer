@@ -9,4 +9,4 @@ WormTracer codes are written in Python and provided in two forms, as an IPython 
 bioRxiv 2023.12.11.571048; doi: https://doi.org/10.1101/2023.12.11.571048
 and a manuscript under review.<br><br>
 
-We povide several versions in different subfolders. Please refer to the ReadMe files in each subfolder for further details.
+We povide several versions in different subfolders. Please refer to the ReadMe file in each subfolder for further details.
