@@ -4,6 +4,11 @@ WormTracer is an algorithm designed to accurately determine the centerline of a 
 
 WormTracer codes are written in Python and provided in two forms, as an IPython Notebook (.ipynb), or a Python source code (.py). Users can choose either format depending on their own environment for running the codes.
 
+Try a quick demo here.<br>
+<a target="_blank" href="https://colab.research.google.com/github/yuichiiino1/WormTracer/blob/main/WormTracer19_3/WT19_3_demo.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
 - Reference
 "WormTracer: A precise method for worm posture analysis using temporal continuity"
 bioRxiv 2023.12.11.571048; doi: https://doi.org/10.1101/2023.12.11.571048
