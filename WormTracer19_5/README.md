@@ -79,7 +79,7 @@ Or, just avoid making the movie file by setting the parameter SaveCenterlinedWor
 <br>
 
 5. **WormTracer outputs**<br><br>
-After execution of WormTracer, in the folder specified as 2. Specifying the location of Results,
+After execution of WormTracer, in the folder specified as _2. Specifying the location of Results_,
 following files are created (zzzzz corresponds to the file name of input images, with a serial number added at the end):
 - zzzzz_params.yaml, zzzzz_params.json: Parameters used for running the program. .yaml includes parameters basically specified by the user, while .json includes additional parameters determined in the program.
 - zzzzz_png, zzzzz_tif, and/or zzzzz.mp4:
@@ -89,7 +89,7 @@ Estimated centerlines overlayed on the input imates as png image sequence, multi
 - zzzzz_x.csv, zzzzz_y.csv
 Numerical data of estimated centerlines. The _x.csv file includes x coordinates and _y.csv file y coordinates. Rows correspond to frames of input images, while columns correspond to centerline junction points from head to tail.
 - zzzzz_x_rev.csv, zzzzz_y_rev.csv
-Numerical data of inverted centerlines, to be used in case head assignment was incorrect.
+Numerical data of inverted centerlines, to be used in case head/tail assignment was incorrect.
 <br>
 
 6. Adjustable hyperparameters<br>
@@ -197,6 +197,7 @@ If True, saves input images with estimated centerline as a movie full_line_image
 SaveCenterlinedWormsMultitiff (True or False):
 If True, saves input images with estimated centerline as a multipage tiff full_line_images.tif
 ```
+
 
 
 
