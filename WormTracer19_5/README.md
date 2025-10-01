@@ -9,7 +9,7 @@ WormTracer codes are written in Python and provided in two forms, as an IPython 
 bioRxiv 2023.12.11.571048; doi: https://doi.org/10.1101/2023.12.11.571048
 and a manuscript under review.<br><br>
 
-**WormTracer19_3 runs about three times faster than WormTracer19_1 thanks to Chung-Kuan Chen.<br>
+**WormTracer19_3 and later run about three times faster than WormTracer19_1 thanks to Chung-Kuan Chen.<br>
 Also, directory structures have been changed so that the results can be saved to any location that users specify.**<br><br>
 
 Try a quick demo here.<br>
@@ -44,9 +44,9 @@ Run all cells in wt19_3.ipynb<br>
 4. **Running WormTracer from command line (CLI)**<br><br>
 (installation)
 Install WormTracer by entering the following command after activating appropriate python environment<br><br>
-\$ pip install git+https://github.com/yuichiiino1/WormTracer.git#subdirectory=WormTracer19_3<br><br>
+\$ pip install git+https://github.com/yuichiiino1/WormTracer.git#subdirectory=WormTracer19_5<br><br>
 Alternatively, the codes can be downloaded from https://github.com/yuichiiino1/WormTracer/ (current version is in the WormTracer19_3 subfolder), either by pip clone or https download, and (after optional modifications) install as<br><br>
-\$ pip install [local path to WormTracer19_3 folder]<br><br>
+\$ pip install [local path to WormTracer19_5 folder]<br><br>
 Confirm successfule installation by making sure that WormTracer appears by \$ pip list<br>
 In case you need to uninstall, just enter \$ pip uninstall WormTracer<br><br>
 (preparation)<br>
@@ -197,6 +197,7 @@ If True, saves input images with estimated centerline as a movie full_line_image
 SaveCenterlinedWormsMultitiff (True or False):
 If True, saves input images with estimated centerline as a multipage tiff full_line_images.tif
 ```
+
 
 
 
