@@ -36,16 +36,16 @@ Install the following packages that WormTracer depends on, if they are not yet i
 torch, numpy, opencv-python, matplotlib, Pillow, scikit-image, scipy, pyyaml<br><br>
 Make binarized images<br>
 Place functions.py at an appropriate path<br>
-Place wt19_3.ipynb and change parameters, especially the path to functions.py, path to the input images and output folder in which you want the results to be stored (optional).
+Place wt19_5.ipynb and change parameters, especially the path to functions.py, path to the input images and output folder in which you want the results to be stored (optional).
 <br><br>
 (execution)<br>
-Run all cells in wt19_3.ipynb<br>
+Run all cells in wt19_5.ipynb<br>
 
 4. **Running WormTracer from command line (CLI)**<br><br>
 (installation)
 Install WormTracer by entering the following command after activating appropriate python environment<br><br>
 \$ pip install git+https://github.com/yuichiiino1/WormTracer.git#subdirectory=WormTracer19_5<br><br>
-Alternatively, the codes can be downloaded from https://github.com/yuichiiino1/WormTracer/ (current version is in the WormTracer19_3 subfolder), either by pip clone or https download, and (after optional modifications) install as<br><br>
+Alternatively, the codes can be downloaded from https://github.com/yuichiiino1/WormTracer/ (current version is in the WormTracer19_5 subfolder), either by pip clone or https download, and (after optional modifications) install as<br><br>
 \$ pip install [local path to WormTracer19_5 folder]<br><br>
 Confirm successfule installation by making sure that WormTracer appears by \$ pip list<br>
 In case you need to uninstall, just enter \$ pip uninstall WormTracer<br><br>
@@ -197,6 +197,7 @@ If True, saves input images with estimated centerline as a movie full_line_image
 SaveCenterlinedWormsMultitiff (True or False):
 If True, saves input images with estimated centerline as a multipage tiff full_line_images.tif
 ```
+
 
 
 
