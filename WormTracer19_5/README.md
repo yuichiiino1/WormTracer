@@ -76,6 +76,20 @@ plt.rcParams["animation.ffmpeg_path"] = "PATH_TO_FFMPEG"<br><br>
 before "if len(sys.argv) == 4:"<br><br>
 Or, just avoid making the movie file by setting the parameter SaveCenterlinedWormsMovie as False in xxxx.yaml.
 <br><br>
+1. WormTracer outputs
+After execution of WormTracer, in the folder specified as 2. Specifying the location of Results,
+following files are created (zzzzz corresponds to the file name of input images, with a serial number added at the end):
+- zzzzz_params.yaml, zzzzz_params.json: Parameters used for running the program. .yaml includes parameters basically specified by the user, while .json includes additional parameters determined in the program.
+- zzzzz_png, zzzzz_tif, and/or zzzzz.mp4:
+Estimated centerlines overlayed on the input imates as png image sequence, multipage tiff, and/or mp4, as specified in the hyperparameters.
+- zzzzz_loss_plot.png, zzzzz_losses.csv: a plot and a numerical output of final loss values along time frames.
+- zzzzz_log.txt: log file of execution processes.
+- zzzzz_x.csv, zzzzz_y.csv
+Numerical data of estimated centerlines. The _x.csv file includes x coordinates and _y.csv file y coordinates. Rows correspond to frames of input images, while columns correspond to centerline junction points from head to tail.
+- zzzzz_x_rev.csv, zzzzz_y_rev.csv
+Numerical data of inverted centerlines, to be used in case head assignment was incorrect.
+<br><br>
+
 1. Adjustable hyperparameters<br>
 Default parameters usually works well
 ```
@@ -181,3 +195,4 @@ If True, saves input images with estimated centerline as a movie full_line_image
 SaveCenterlinedWormsMultitiff (True or False):
 If True, saves input images with estimated centerline as a multipage tiff full_line_images.tif
 ```
+
