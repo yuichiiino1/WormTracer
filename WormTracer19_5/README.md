@@ -7,7 +7,10 @@ WormTracer codes are written in Python and provided in two forms, as an IPython 
 - Reference
 "WormTracer: A precise method for worm posture analysis using temporal continuity"
 bioRxiv 2023.12.11.571048; doi: https://doi.org/10.1101/2023.12.11.571048
-and a manuscript under review.<br><br>
+<br>and<br>
+"WormTracer: A precise method for worm posture analysis using temporal continuity"
+Journal of Neuroscience Methods 427 (2026) 110644; doi: https://doi.org/10.1016/j.jneumeth.2025.110644
+<br><br>
 
 **WormTracer19_3 and later run about three times faster than WormTracer19_1 thanks to Chung-Kuan Chen.<br>
 Also, directory structures have been changed so that the results can be saved to any location that users specify.**<br><br>
@@ -197,6 +200,7 @@ If True, saves input images with estimated centerline as a movie full_line_image
 SaveCenterlinedWormsMultitiff (True or False):
 If True, saves input images with estimated centerline as a multipage tiff full_line_images.tif
 ```
+
 
 
 
