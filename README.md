@@ -12,12 +12,16 @@ Try a quick demo here.<br>
 - Reference
 "WormTracer: A precise method for worm posture analysis using temporal continuity"
 bioRxiv 2023.12.11.571048; doi: https://doi.org/10.1101/2023.12.11.571048
-and a manuscript under review.<br><br>
+and <br>
+"WormTracer: A precise method for worm posture analysis using temporal continuity"
+Journal of Neuroscience Methods 427 (2026) 110644; doi: https://doi.org/10.1016/j.jneumeth.2025.110644
+<br><br>
 
 We provide several versions of WormTracer in different subfolders. Please refer to the ReadMe file in each subfolder for further details.
 
 We also provide sample images in the "Sample Images" subdirectory as a reference and for the convenience of checking whether your installation is successful.
 WT_grayscale.avi is the original movie of a moving _C. elegans_. WT_binary.avi is the same images after manual binalization. This was converted into sequential tiff files in WT_binary_image_sequence.zip or a multipage tiff file in WT_binary_multipage_tiff.zip (WT17_5 only accepts sequential files, while higher versions also accept multipage tiff files). Use either of downloaded zip file, unzip, and run WormTracer assigning the file or file directory as an input, as instructed in ReadMe for each version.
 WT_estimated_centerline.avi is the example output of WormTracer obtained using these files as an input.
+
 
 
